@@ -51,4 +51,9 @@
         </pluginManagement>
     </build>
 
+    <scm>
+        <developerConnection>scm:git:https://github.com/JLDEMIGUEL/PetClinic.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
