@@ -6,17 +6,21 @@
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
     </modules>
+
+    <groupId>springfarmework</groupId>
+    <artifactId>PetClinic</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
+    <name>PetClinic</name>
+    <description>PetClinic</description>
+
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.3</version>
+        <version>2.0.3.RELEASE</version>
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
-    <groupId>springfarmework</groupId>
-    <artifactId>PetClinic</artifactId>
-    <version>0.0.1</version>
-    <name>PetClinic</name>
-    <description>PetClinic</description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -32,7 +36,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.3</version>
                 <configuration>
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
@@ -45,13 +48,5 @@
         <developerConnection>scm:git:https://github.com/JLDEMIGUEL/PetClinic.git</developerConnection>
         <tag>PetClinic-0.0.1</tag>
     </scm>
-
-    <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Internal repo for pet-clinic</name>
-            <url>file:d:/temp/repo/pet-clinic</url>
-        </repository>
-    </distributionManagement>
 
 </project>
