@@ -6,8 +6,6 @@ import springfarmework.petclinic.model.Owner;
 import springfarmework.petclinic.model.Vet;
 import springfarmework.petclinic.services.OwnerService;
 import springfarmework.petclinic.services.VetService;
-import springfarmework.petclinic.services.map.OwnerServiceMap;
-import springfarmework.petclinic.services.map.VetServiceMap;
 
 
 @Component
@@ -17,11 +15,12 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
 
-
-    public DataLoader() {
-        ownerService = new OwnerServiceMap();
-        vetService = new VetServiceMap();
+    //@Autowired not necessary
+    public DataLoader(OwnerService ownerService, VetService vetService) {
+        this.ownerService = ownerService;
+        this.vetService = vetService;
     }
+
 
     @Override
     public void run(String... args) throws Exception {
