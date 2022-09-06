@@ -1,2 +1,5 @@
+springfarmework/petclinic/controllers/VetController.class
+springfarmework/petclinic/controllers/OwnerController.class
 springfarmework/petclinic/PetClinicApplication.class
-springfarmework/petclinic/Main.class
+springfarmework/petclinic/controllers/IndexController.class
+springfarmework/petclinic/bootstrap/DataLoader.class

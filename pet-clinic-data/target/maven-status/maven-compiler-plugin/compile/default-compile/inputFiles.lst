@@ -1,6 +1,14 @@
+/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/services/map/VetServiceMap.java
 /home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/model/Pet.java
 /home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/model/PetType.java
+/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/services/map/AbstractMapService.java
+/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/model/BaseEntity.java
+/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/services/map/PetServiceMap.java
+/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/services/CrudService.java
 /home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/model/Owner.java
-/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/Main.java
+/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/services/PetService.java
+/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/services/OwnerService.java
 /home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/model/Vet.java
+/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/services/map/OwnerServiceMap.java
+/home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/services/VetService.java
 /home/jose/Documents/Proyectos/PetClinic/pet-clinic-data/src/main/java/springfarmework/petclinic/model/Person.java
