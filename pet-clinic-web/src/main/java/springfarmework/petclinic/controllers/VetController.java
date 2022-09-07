@@ -6,7 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import springfarmework.petclinic.services.VetService;
 
-@RequestMapping("/vets")
+@RequestMapping({"/vets","/vets.html"})
 @Controller
 public class VetController {
 
@@ -23,4 +23,6 @@ public class VetController {
 
         return "vets/index";
     }
+
+
 }
